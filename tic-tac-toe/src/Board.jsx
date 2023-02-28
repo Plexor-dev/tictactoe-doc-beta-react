@@ -31,7 +31,7 @@ export function Board() {
             return
         }
         if(isNext){
-            nextSquare[i] = 'X'
+            nextSquare[i] = "X"
         } else {
             nextSquare[i] = 'O'
         }
@@ -46,11 +46,12 @@ export function Board() {
         status = "Winner: " + winner
     } else {
         if(square.some(x=> x=== null)) {
-            status = "Next is " + (isNext ? "X" : "O")
+            status = "Next is " + (isNext ? "X"  : "O") 
         } else {
             status = 'Draw'
         }
     }
+
 
     return ( 
             <>

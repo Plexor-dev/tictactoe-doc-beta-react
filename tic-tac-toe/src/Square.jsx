@@ -1,11 +1,6 @@
 import { useState } from "react";
 
 export function Square({value, onSquareClick}) {
-    //const [value, setValue] = useState(null)
-
-    /*function handleClick(){
-        setValue('X')
-    }*/
 
     return ( 
             <>
