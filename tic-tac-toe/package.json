@@ -1,12 +1,9 @@
 {
   "name": "tic-tac-toe",
   "private": true,
-  "homepage": "https://plexor-dev.github.io/tictactoe-doc-beta-react/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
